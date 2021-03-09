@@ -3,13 +3,13 @@
   "dataset": {
     "train_path": "gs://buildings-noclasses/tfrecords/train-00000-of-00001",
     "eval_path": "gs://buildings-noclasses/tfrecords/test-00000-of-00001",
-    "image_size": 512,
+    "image_size": 256,
     "tfrecords": true
   },
-  "train_batch_size": 128,
+  "train_batch_size": 256,
   "eval_batch_size": 128,
   "predict_batch_size": 128,
-  "steps_per_checkpoint": 500,
+  "steps_per_checkpoint": 1000,
   "iterations": 500,
   "train_steps": 100000,
   "predict_steps": 0,
