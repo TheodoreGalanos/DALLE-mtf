@@ -1,8 +1,8 @@
 {
   "model_type": "vae",
   "dataset": {
-    "train_path": "gs://buildings-noclasses/tfrecords/train-00000-of-00001",
-    "eval_path": "gs://buildings-noclasses/tfrecords/test-00000-of-00001",
+    "train_path": "gs://dalle_layouts/tfrecords/train-00000-of-00001",
+    "eval_path": "gs://dalle_layouts/tfrecords/test-00000-of-00001",
     "image_size": 256,
     "tfrecords": true
   },
@@ -14,7 +14,7 @@
   "train_steps": 100000,
   "predict_steps": 0,
   "eval_steps": 16,
-  "model_path": "gs://buildings-noclasses/vae_buildings_512_8192/",
+  "model_path": "gs://dalle_layouts/checkpoints/",
   "recompute_grad": true,
   "use_bf16": true,
   "num_tokens": 2048,
